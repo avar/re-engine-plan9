@@ -1,3 +1,7 @@
+2008-02-25  Ævar Arnfjörð Bjarmason  <avar@cpan.org> (0.15)
+
+	* Makefile.PL: Delete M::I in favor of EU::MM
+
 2007-07-17  Ævar Arnfjörð Bjarmason  <avar@cpan.org> (0.14)
 
 	* Makefile.PL: Globbing doesn't work on windows, do it explicitly in Perl
