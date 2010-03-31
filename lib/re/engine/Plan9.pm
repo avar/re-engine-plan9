@@ -1,5 +1,5 @@
 package re::engine::Plan9;
-use 5.009005;
+use 5.010;
 use XSLoader ();
 
 # All engines should subclass the core Regexp package
@@ -7,7 +7,6 @@ our @ISA = 'Regexp';
 
 BEGIN
 {
-    $VERSION = '0.14';
     XSLoader::load __PACKAGE__, $VERSION;
 }
 
